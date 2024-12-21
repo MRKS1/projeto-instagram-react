@@ -7,8 +7,6 @@ export default function Posts() {
     { nome: "filomoderna", imagemLogo: "assets/filomoderna.svg", imagemPost: "assets/elefante.png", curtiuPerfil: "9gag", curtiuLogo: "assets/9gag.svg", curtidas: 88.233 }
   ];
 
-
-
   return (
     <div className="posts">
       {conteudoPosts.map((p, index) => <Post nome={p.nome} imagemLogo={p.imagemLogo} imagemPost={p.imagemPost}
