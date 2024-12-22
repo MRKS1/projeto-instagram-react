@@ -4,8 +4,8 @@ import User from "./User";
 export default function SideBar() {
   return (
     <div className="sidebar">
+ 
       <User />
-
       <Suggestions />
 
       <div className="links">

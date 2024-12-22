@@ -16,6 +16,7 @@ export default function Posts() {
   );
 }
 
+
 function Post(props) {
   const { nome, imagemLogo, imagemPost, curtiuPerfil, curtiuLogo, curtidas } = props;
 
@@ -23,7 +24,6 @@ function Post(props) {
   const coracaoSelecionado = <ion-icon class="coracaoVermelho" name="heart" onClick={dislike}></ion-icon>;
   const imagemClick = <img src={imagemPost} onClick={like} />;
   const iconeSalvar = <ion-icon name="bookmark-outline" onClick={selecionado}></ion-icon>;
-
 
   const [coracao, setCoracao] = React.useState(coracaoVazio);
   const [quantidade, setQuantidade] = React.useState(curtidas);

@@ -17,6 +17,7 @@ export default function Stories() {
   );
 }
 
+
 function Story(props) {
   const { nome, imagem } = props;
 

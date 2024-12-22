@@ -12,5 +12,4 @@ export default function Body() {
             <SideBar />
         </div>
     );
-
 }

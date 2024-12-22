@@ -16,6 +16,7 @@ export default function User() {
         setImagem(linkImagem);
     }
 
+
     return (
         <div className="usuario">
             <img onClick={mudarImagem} src={!imagem ? imagemInicial : imagem} />
