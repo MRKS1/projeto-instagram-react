@@ -110,6 +110,10 @@ body {
   margin-right: 10px;
 }
 
+.coracaoVermelho {
+  color: red;
+}
+
 .story .imagem {
   display: flex;
   justify-content: center;

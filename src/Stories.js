@@ -1,5 +1,3 @@
-
-
 export default function Stories() {
   const conteudoStories = [
     { nome: "9gag", imagem: "assets/9gag.svg" },
@@ -18,7 +16,6 @@ export default function Stories() {
     </div>
   );
 }
-
 
 function Story(props) {
   const { nome, imagem } = props;
